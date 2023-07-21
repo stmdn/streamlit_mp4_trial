@@ -1,0 +1,21 @@
+pandas
+streamlit
+transformers
+openai
+langchain
+numpy
+llama_index==0.6.10
+gsheetsdb
+pyparsing
+s3fs
+matplotlib
+plotly
+scipy
+scikit-learn
+lxml
+unstructured
+chromadb
+mutagen
+moviepy
+# Direct pypi install coming soon
+git+https://github.com/streamlit/files-connection
