@@ -57,14 +57,6 @@ with tab_time_select:
             duration = clip.duration
             clip.close()
 
-        '''
-        starttime = st.slider(
-                    "Specify the start time:",
-                    min_value = time(0,0),
-                    step = time(0, 1),
-                    max_value=time(0, round(duration)))
-        '''
-
         starttime_str = st.text_input("Specify the start time in HH\:MM\:SS format", value="00:00:00")
         #st.write("Duration: ", duration)
 
