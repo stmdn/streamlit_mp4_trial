@@ -9,7 +9,7 @@ recordings_folder_name = "./datafiles/"
 
 def ffmpeg_clip_extract(fname_in, start, end, clpn=0, codec='copy', cdir='clips', cntnr=None, force=False):
 
-  cmd = ['ffmpeg']
+  cmd = ['/usr/bin/ffmpeg']
   
 #  st.write(st, type(st))
   if cntnr is None:
