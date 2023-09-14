@@ -117,5 +117,5 @@ with tab_time_select:
         st.write("Clip Duration: ", duration)
         st.write("Start time:", starttime)
         st.write("End time:", endtime)
-        fname_clip = ffmpeg_clip_extract(selected_AV, str(starttime), str(endtime), cdir='./clips', force=True)
+        fname_clip = ffmpeg_clip_extract(selected_AV, str(starttime), str(endtime), cdir='./clips', force=False)
         st.write(fname_clip)
